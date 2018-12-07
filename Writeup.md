@@ -190,6 +190,17 @@ HTML("""
 
 
 
+## Discussion
+
+Though the lanes detected in ```project_video.mp4``` looks good. This may not the same scenario in other videos
+There are improvements necessary in the approach like 
+
+- Lighting conditions, fog, rainydays etc will impact the detection and this may fail.
+- Shadows are creating lots of problem in the ```project_video.mp4``` 
+- If the curvature is too long like S curve this may not work well
+
+
+
 
 ```python
 
